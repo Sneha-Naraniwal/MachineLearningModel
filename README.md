@@ -1,43 +1,42 @@
-# Machine Learning Model Training and Prediction Web App
-
-## Project Overview
-
-This project is a **Streamlit-based web application** designed to assist users in performing machine learning tasks, including model training, prediction, and visualization. The app supports the following features:
-
-- **Model Training**: Users can select and train various machine learning models (Logistic Regression, Random Forest, SVM, XGBoost) on uploaded datasets. The trained models can be saved and later used for making predictions.
-  
-- **Model Prediction**: After training a model, users can upload new datasets (for prediction) and get predictions using the selected pre-trained model. The app will display the predicted labels for the new data based on the trained model.
-
-- **Model Evaluation**: The app provides a **confusion matrix** for evaluating the performance of the model on the uploaded data. It visualizes the true vs. predicted labels for each class, helping users understand how well the model is performing.
-
-- **Accuracy Calculation**: The app calculates and displays the **accuracy** of the model on the uploaded dataset. Accuracy is computed as the percentage of correct predictions made by the model.
-
-- **Data Drift Detection (Optional)**: The app allows users to detect data drift in their datasets by comparing the characteristics of the current dataset with historical data (if available). This feature helps in identifying changes in the data distribution that could affect model performance.
-
-- **Visualization**: The app provides visualizations for model performance, including a **confusion matrix** and **accuracy** metrics, which help users assess the effectiveness of their models.
-
-In summary, the project provides a complete **end-to-end solution** for machine learning tasks, from training models to evaluating their performance and making predictions on new data.
+# 🌟 Machine Learning Model Training and Prediction Web App
 
 ---
 
-## Features
+## 🚀 Project Overview
 
-- **Model Training**: Train models using uploaded datasets and select from multiple machine learning algorithms (Logistic Regression, Random Forest, SVM, XGBoost).
-  
-- **Prediction**: Upload new data for prediction and get results based on the trained model.
+This project is a **Streamlit-based web application** designed to assist users in performing end-to-end machine learning tasks, including:
 
-- **Confusion Matrix**: Visualize the confusion matrix of the model's predictions on the test data.
+- **Model Training**: Select and train ML models (Logistic Regression, Random Forest, SVM, XGBoost) on uploaded datasets.
+- **Model Prediction**: Upload new data and predict outcomes using saved models.
+- **Model Evaluation**: View confusion matrices and accuracy metrics.
+- **Data Drift Detection**: (Optional) Detect if the data distribution has changed compared to historical data.
+- **Visualization**: Visual tools like confusion matrix plots to understand model performance better.
 
-- **Model Accuracy**: Display the accuracy of the model based on the predictions on the uploaded data.
-
-- **Data Drift Detection**: Optional feature to compare the uploaded data with historical data to check for data drift.
+✅ In short, this project provides a **complete solution** — from model training ➡️ prediction ➡️ evaluation — inside an easy-to-use web app!
 
 ---
+
+## ✨ Features
+
+- 📂 **Upload Dataset** for training or prediction.
+- 📈 **Train multiple models** and choose the best one.
+- 🔥 **Save and load trained models**.
+- 🎯 **Make predictions** on new uploaded data.
+- 🛠️ **Confusion Matrix** and **Accuracy** visualization.
+- 🔍 **Data Drift Detection** (optional, if historical data is provided).
+
+---
+
+# 🗂 Project Directory Structure
+
+Below is the **visual layout** and folder structure of the project:
+
+<img src="src/img1.png" alt="Project Structure" width="200" height="400">
+
+
 # My ML Project
 
 This project includes machine learning model training, predictions, and visualization. Below is the layout with images and instructions.
-
-<img src="src/img1.png" alt="Resized Example Image" height="400" width="200">
  <!-- Text (Commands) in the second column -->
   <div>
     <h3>Installation and Setup:</h3>
@@ -55,5 +54,22 @@ This project includes machine learning model training, predictions, and visualiz
 
 </div>
 .
+📸 Screenshots
+Here’s what the app looks like:
+
+<h2>➡️ Home Page</h2>
+<br>
+<img src="src/img2.png" alt="Home Page" width="700">
+<h2>➡️ Dataset Upload</h2>
+<br>
+<img src="src/img3.png" alt="Dataset Upload" width="700">
+<h2>➡️ Model Training</h2>
+<br>
+<img src="src/img4.png" alt="Model Training" width="700">
+<h2>➡️ Prediction and Visualization</h2>
+<br>
+<img src="src/img5.png" alt="Prediction and Visualization" width="700">
+
+
 
 
